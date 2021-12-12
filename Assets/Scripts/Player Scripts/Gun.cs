@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
-    public float damage = 10f;
-    public float range = 100f;
+    public float damage = 50;
+    public float range = 1000;
     AudioSource m_ShootingSound;
 
     public Camera fpsCam;
@@ -13,7 +13,7 @@ public class Gun : MonoBehaviour
         m_ShootingSound = GetComponent<AudioSource>();
     }
     
-    // Update is called once per frame
+ 
     void Update(){
         if (Input.GetButtonDown("Fire1")){
             Shoot();
@@ -24,7 +24,11 @@ public class Gun : MonoBehaviour
     void Shoot(){
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range)){
-            Debug.Log(hit.transform.name);
+            ZombieHealth zombie = hit.transform.GetComponent<ZombieHealth>();
+
+            if (zombie != null){
+                zombie.DecreaseHealth(damage);
+            }
         }
     }
 }
