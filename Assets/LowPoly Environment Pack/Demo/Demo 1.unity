@@ -351,7 +351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 3.9
   SmoothLook: 30
 --- !u!1 &9891632
 GameObject:
@@ -1405,7 +1405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4.2
   SmoothLook: 30
 --- !u!1001 &43004626
 PrefabInstance:
@@ -3370,7 +3370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 3.9
   SmoothLook: 30
 --- !u!1 &165591702
 GameObject:
@@ -6077,7 +6077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4.1
   SmoothLook: 30
 --- !u!1 &306354855
 GameObject:
@@ -7400,7 +7400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4.2
   SmoothLook: 30
 --- !u!1 &396013441
 GameObject:
@@ -11904,7 +11904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4.1
   SmoothLook: 30
 --- !u!1 &650654353
 GameObject:
@@ -14025,7 +14025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4.2
   SmoothLook: 30
 --- !u!1 &762808247
 GameObject:
@@ -14273,7 +14273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 3.8
   SmoothLook: 30
 --- !u!1 &776819909
 GameObject:
@@ -19713,7 +19713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4
   SmoothLook: 30
 --- !u!1 &1032729519
 GameObject:
@@ -21316,7 +21316,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.526, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1911437970}
   m_Father: {fileID: 1369316594}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21825,7 +21826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4
   SmoothLook: 30
 --- !u!1 &1121706045
 GameObject:
@@ -23039,7 +23040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 3.9
   SmoothLook: 30
 --- !u!1001 &1173516281
 PrefabInstance:
@@ -24007,7 +24008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4.1
   SmoothLook: 30
 --- !u!1 &1235936055
 GameObject:
@@ -26081,7 +26082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1369316589}
-  speed: 10
+  speed: 6
   gravity: -9.81
 --- !u!136 &1369316591
 CapsuleCollider:
@@ -26159,7 +26160,6 @@ Transform:
   m_Children:
   - {fileID: 1098132520}
   - {fileID: 1479507756}
-  - {fileID: 1911437970}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28119,7 +28119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4.1
   SmoothLook: 30
 --- !u!1 &1485211835
 GameObject:
@@ -29030,7 +29030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4.3
   SmoothLook: 30
 --- !u!1 &1530628646
 GameObject:
@@ -30877,7 +30877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 3.9
   SmoothLook: 30
 --- !u!1 &1629917172 stripped
 GameObject:
@@ -31918,7 +31918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 3.8
   SmoothLook: 30
 --- !u!1001 &1672347382
 PrefabInstance:
@@ -36159,7 +36159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4
   SmoothLook: 30
 --- !u!1 &1907471432
 GameObject:
@@ -36228,7 +36228,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1369316594}
+    m_TransformParent: {fileID: 1098132520}
     m_Modifications:
     - target: {fileID: 100000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
       propertyPath: m_Name
@@ -36236,7 +36236,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36244,7 +36256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3
+      value: -0.22600001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -36252,19 +36264,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99578387
+      value: 0.9957839
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.008505792
+      value: 0.008505793
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.09084314
+      value: 0.09084315
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.009467786
+      value: -0.009467787
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4974c3aa5aa3dca4e847ca65904285a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -38503,7 +38515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4.2
   SmoothLook: 30
 --- !u!1 &2029963662
 GameObject:
@@ -38821,7 +38833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4
   SmoothLook: 30
 --- !u!1001 &2049701620
 PrefabInstance:
@@ -40984,7 +40996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1369316594}
-  moveSpeed: 2
+  moveSpeed: 4
   SmoothLook: 30
 --- !u!1001 &2129078025
 PrefabInstance:
