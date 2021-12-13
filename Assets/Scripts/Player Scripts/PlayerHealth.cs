@@ -3,39 +3,47 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class PlayerHealth : MonoBehaviour{
+public class PlayerHealth : MonoBehaviour
+{
 
-private float health;
-public GameObject HealthBar;
-public float maxHealth = 100;
-    
+    private float health;
+    public GameObject HealthBar;
+    public float maxHealth = 100;
 
-    public void Start(){
+
+    public void Start()
+    {
         health = maxHealth;
     }
-    
-    public void AddHealth(float amount){
+
+    public void AddHealth(float amount)
+    {
         health += amount;
-     
+
         UpdateHealthBar();
-        
+
     }
-      
-      
-      public void DecreaseHealth(float amount){
+
+
+    public void DecreaseHealth(float amount)
+    {
         health -= amount;
-        
+
         if (health <= 0)
         {
             health = 0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            SceneManager.LoadScene("GameOverScene");
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName("GameOverScene"));
             health = maxHealth;
-           
+
         }
         UpdateHealthBar();
 
     }
-    public void UpdateHealthBar(){
+    public void UpdateHealthBar()
+    {
         float fillAmount = health / maxHealth;
         if (fillAmount > 1)
         {
@@ -46,5 +54,5 @@ public float maxHealth = 100;
     }
 
 }
-    
+
 

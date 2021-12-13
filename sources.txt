@@ -1,0 +1,3 @@
+zombie prefab - https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/character-pack-zombie-sample-131604
+map 3d objects - https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-environment-pack-99479
+gun object - https://assetstore.unity.com/packages/templates/systems/low-poly-shooter-pack-free-sample-144839

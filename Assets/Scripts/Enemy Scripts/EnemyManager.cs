@@ -1,23 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyManager : MonoBehaviour
 {
-    public static EnemyManager instance;
+    public int killCount;
 
-    [SerializeField]
-
-    void Awake()
-    {
-
+    public void killEnemyCount(){
+        killCount++;
+        Debug.Log("deathCounter = " + killCount);
     }
 
-    void MakeInstance()
+    void Update()
     {
-        if (instance == null)
+        if (killCount == 2)
         {
-
+            SceneManager.LoadScene("Map 2");
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName("Map 2"));
         }
     }
 }
+
